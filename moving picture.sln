@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2018
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "moving picture", "moving picture\moving picture.csproj", "{DD7D58EE-0478-4D07-B291-6F290D146CD7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DD7D58EE-0478-4D07-B291-6F290D146CD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD7D58EE-0478-4D07-B291-6F290D146CD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD7D58EE-0478-4D07-B291-6F290D146CD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD7D58EE-0478-4D07-B291-6F290D146CD7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0F085B68-7232-4321-8414-11A3C5245EAF}
+	EndGlobalSection
+EndGlobal
