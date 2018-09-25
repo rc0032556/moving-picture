@@ -90,11 +90,13 @@
             // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(349, 102);
+            this.button5.Location = new System.Drawing.Point(349, 124);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(75, 23);
+            this.button5.Size = new System.Drawing.Size(65, 28);
             this.button5.TabIndex = 5;
+            this.button5.Text = "button 5";
             this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_ClickAsync);
             // 
             // Form1
             // 

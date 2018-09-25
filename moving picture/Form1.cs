@@ -36,10 +36,10 @@ namespace moving_picture
             {
                 pictureBox1.Location = new Point(pictureBox1.Location.X - 5, pictureBox1.Location.Y);
             }
-        } 
+        }
 
         private void button3_Click(object sender, EventArgs e)
-        { 
+        {
             if (pictureBox1.Location.Y > 0)
             {
                 pictureBox1.Location = new Point(pictureBox1.Location.X, pictureBox1.Location.Y - 5);
@@ -50,6 +50,28 @@ namespace moving_picture
         {
             pictureBox1.Location = new Point(pictureBox1.Location.X, pictureBox1.Location.Y + 5);
         }
+
+        private async void button5_ClickAsync(object sender, EventArgs e)
+        {
+            try
+            {
+                for (int i = 0; i < 10; i++)
+                {
+                    pictureBox1.Location = new Point(pictureBox1.Location.X + 5, pictureBox1.Location.Y);
+                    await Task.Delay(100);
+                }
+            }
+            catch
+            {
+
+            }
+
+        }
     }
 }
 
+private void btnLeft_Click(object sender, EventArgs e)
+{ 
+     if (pictureBox1.Location.X > 0)
+    {
+        PictureBox1.Location = new Point(PictureBox1.Location.X - 5, PictureBox1.LOcation.Y);
